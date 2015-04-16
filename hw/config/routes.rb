@@ -55,4 +55,14 @@ Rails.application.routes.draw do
   #   end
 
   get 'greet' => 'greets#index'
+
+
+  resources :contacts
+  get 'contact' => 'contacts#input'
+  get 'contact_submitted' => 'contacts#output'
+  get 'rps' => 'rpss#main'
+  get 'rps_final' => 'rpss#final'
+  get 'dice' => 'dice#game'
+  get 'dice_roll' => 'dice#roll'
+
 end
