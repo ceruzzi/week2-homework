@@ -4,7 +4,7 @@ class CreateConts < ActiveRecord::Migration
       t.string :FirstName
       t.string :LastName
 
-      t.timestamps null: false
+      t.timestamps null : false
     end
   end
 end

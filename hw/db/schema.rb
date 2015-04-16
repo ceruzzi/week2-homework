@@ -11,27 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150415212843) do
+ActiveRecord::Schema.define(version : 20150415212843) do
 
-  create_table "contacts", force: :cascade do |t|
-    t.string   "FirstName"
-    t.string   "LastName"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+create_table "contacts", force : :cascade do | t |
+t.string "FirstName"
+t.string "LastName"
+t.datetime "created_at", null : false
+t.datetime "updated_at", null : false
+end
 
-  create_table "conts", force: :cascade do |t|
-    t.string   "FirstName"
-    t.string   "LastName"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+create_table "conts", force : :cascade do | t |
+t.string "FirstName"
+t.string "LastName"
+t.datetime "created_at", null : false
+t.datetime "updated_at", null : false
+end
 
-  create_table "users", force: :cascade do |t|
-    t.string   "FirstName"
-    t.string   "LastName"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+create_table "users", force : :cascade do | t |
+t.string "FirstName"
+t.string "LastName"
+t.datetime "created_at", null : false
+t.datetime "updated_at", null : false
+end
 
 end
